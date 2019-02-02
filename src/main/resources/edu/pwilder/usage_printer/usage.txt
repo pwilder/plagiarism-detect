@@ -1,5 +1,0 @@
-Usage: <synonyms> <input file 1> <input file 2> [tupleSize]
-  synonyms: Groups of synonyms separated by newlines
-  input file 1: The path to the first input file, both absolute paths and paths relevant to the working directory accepted.
-  input file 2: The path to the second input file, both absolute paths and paths relevant to the working directory accepted.
-  tupleSize: tupleSize for comparison
