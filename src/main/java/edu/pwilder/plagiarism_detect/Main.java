@@ -30,7 +30,7 @@ public class Main {
         final PlagarismDetector pd = factory.buildPlagiarismDetector(DetectionStrategy.QUADRATIC);
         try {
             final double results = pd.process(args);
-            System.out.println(format("%.2f%s", results, "%s"));
+            System.out.println(format("%.2f%%", results));
         } catch (final IllegalArgumentException ex) {
             LOGGER.log(Level.SEVERE, "Problem processing given input", ex);
             new UsagePrinter().printUsage();
